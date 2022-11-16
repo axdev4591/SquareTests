@@ -5,7 +5,8 @@ import pytest
     (2, 4),
     (5, 25),
     (6, 36),
-    (3, 9)
+    (3, 9),
+    (3, 900)
 ])
 
 def test_multi_squares(test_input, expected):
@@ -21,4 +22,3 @@ def test_negative_perimeter():
 #def test_invalid_input():
     #with pytest.raises(ValueError):
     #    sq = Square(-3)
-    #    q.area()
